@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color01: #1eabe3;
+    --color02: #0470b8;
+    --color03: #ffffff;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.somos, .servicos {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul, li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color02);
+    text-decoration: none;
+}
+
+header {
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    /* 30px top / 10% in the sides */
+
+}
+
+.primaryLogo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.linkNav {
+    list-style: none;
+    padding: 2px;
+}
+
+.linkNav li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.linkNav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.linkNav li a:hover {
+    color: var(--color01);
+}
+
+button {
+    margin-left: 30px;
+    padding: 9px 25px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: var(--color03);
+    background-color: rgba(4,112,184,1);
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(4,112,184,0.8);
+    transform: scale(1.1);
+}
+
+.background {
+    width: 1903px;
+    height: 98vh;
+}
+
+main {
+    padding: 0;
+    background-image: url(Images/background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Compromisso {
+    padding-left: 60px;
+    padding-top: 80px;
+    display: block;
+    width: 60%;
+    height: 805px;
+}
+
+.Compromisso h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 4em;
+    color: #ffffff;
+    padding-bottom: 25px;
+}
+
+.Compromisso p {
+    font-family: "Montserrat", sans-serif;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+    line-height: 1.5em;
+    width: 80%;
+    font-weight: 300;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+.Compromisso button {
+    font-size: 25px;
+    margin-top: 75px;
+}
+
+.somos {
+    /* background-image: url(Images/background02.png); */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 120px;
+    
+}
+
+
+.somos img {
+    border-radius: 10px;
+    margin-left: 15%;
+    margin-bottom: 60px;
+
+}
+
+.textSomos {
+    
+    margin-right: 15%;
+    width: 30%;
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.textSomos h1 {
+    padding-bottom: 40px;
+    font-size: 3em;
+}
+
+hr {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.textSomos p {
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: justify;
+}
+
+.instaLogo img{
+    width: 10%;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.servicos {
+    margin-top: 40px;
+    padding-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    
+}
+
+.servicos h1 {
+    padding-bottom: 40px;
+    font-size: 3em;
+}
+
+.servicosLista {
+    margin-top: 12%;
+    
+    
+}
+
+.servicosLista ul li {
+    font-size: 1.5em;
+    font-weight: bolder;
+    line-height: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: list-item;
+    align-items: center;
+    margin-left: 10%;
+    text-decoration: none;
+    
+}
+
+.servicos img {
+    border-radius: 15px;
+    width: 600px;
+}
