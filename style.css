@@ -249,7 +249,7 @@ hr {
 .gridContatos {
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    grid-template-rows: 250px 250px 250px;
+    grid-template-rows: 210px 210px 210px;
     grid-template-areas: "item1 item4"
     "item2 item4"
     "item3 item4";
@@ -326,9 +326,9 @@ hr {
 }
 
 .imgUnidMovel {
-    width: 600px;
+    width: 580px;
     display: flex;
-    /* margin: auto; */
+    border-radius: 15px;
 }
 
 .item4 h2 {
@@ -339,9 +339,9 @@ hr {
 }
 
 .item4 p {
-    width: 600px;
+    width: 580px;
     font-size: 1.2em;
-    text-align: center;
+    text-align: center;  
     text-align: justify;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
