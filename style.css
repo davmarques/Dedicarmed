@@ -11,6 +11,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -200,17 +201,22 @@ hr {
     
 }
 
-.servicosLista ul li {
-    font-size: 1.5em;
-    font-weight: bolder;
-    line-height: 1.5em;
-    padding-top: 5px;
-    padding-bottom: 5px;
+.servicosLista li  {
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: list-item;
     align-items: center;
-    margin-left: 10%;
+    margin-left: 5%;
     text-decoration: none;
     
+}
+
+.servicosLista a {
+    font-size: 1.3em;
+    list-style: none;
+    line-height: 1.5em;
+
 }
 
 .servicos img {
@@ -595,6 +601,48 @@ footer nav {
 .submit:hover {
     background-color: var(--color03);
     transform: scale(1.1);
+}
+
+.servH1 {
+    color: var(--color03);
+    text-align: center;
+    font-size: 3em;
+    padding: 60px;
+}
+
+.gridServicos {
+    display: grid;
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 10px;
+    grid-template-columns: 559px 559px;
+    grid-template-rows: 400px 400px 400px 400px 400px 400px 400px 400px;
+    grid-template-areas: "serv1 serv2",
+    "serv3 serv4",
+    "serv5 serv6",
+    "serv7 serv8",
+    "serv9 serv10",
+    "serv11 serv12",
+    "serv13 serv14",
+    "serv15 serv16"
+    ;
+    color: var(--color03);
+}
+
+#serv1, #serv2, #serv3, #serv4, #serv5, #serv6, #serv7, #serv8, #serv9, #serv10, #serv11, #serv12, #serv13, #serv14, #serv15, #serv16{
+    font-size: 1.1em;
+    margin: auto;
+}
+
+.gridServicos h1 {
+    font-size: 1.6em;
+    padding-bottom: 30px;
+}
+
+.gridServicos p {
+    font-size: 1.2em;
+    text-align: justify;
 }
 
 /* Mobile - First */
