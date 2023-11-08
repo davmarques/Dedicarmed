@@ -89,7 +89,7 @@ main {
     padding-top: 80px;
     display: block;
     width: 60%;
-    height: 805px;
+    height: 85vh;
 }
 
 .Compromisso h1 {
@@ -494,3 +494,92 @@ footer nav {
     padding: 0px 20px;
     
 }
+
+.login {
+    padding-bottom: 225px;
+}
+
+.formH1 {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 40px;
+    font-size: 3.2em;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.formP {
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 40px;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+
+}
+
+.loginForm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px ;
+    margin: auto;
+    grid-template-areas: "formArea1"
+    "formArea2";
+    gap: 0;
+
+}
+
+#formArea1 {
+    margin-left: 55%;
+}
+
+#formArea2 {
+
+}
+
+.loginForm p {
+    color: var(--color03);
+}
+
+.loginForm {
+    list-style-type: none;
+}
+
+.loginForm li {
+    padding: 10px;
+}
+
+.input {
+    width: 400px;
+    height: 45px;
+    border-radius: 15px;
+    text-align: center;
+    border: 15px;
+    justify-content: right;
+
+}
+
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 45px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color02);
+    text-decoration: none;
+    border-radius: 50px;
+    border: 15px;
+
+}
+
+.submit:hover {
+    background-color: var(--color03);
+    transform: scale(1.1);
+}
+
+/* Mobile - First */
