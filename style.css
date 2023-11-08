@@ -172,9 +172,9 @@ hr {
 .instaLogo img{
     
     margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+   
+    display: inline;
+    padding: 10px;
     justify-content: center;
     align-items: center;
 }
@@ -345,6 +345,20 @@ hr {
     text-align: center;  
     text-align: justify;
     margin-bottom: 20px;
+}
+
+.parceiros img {
+    width: 300px;
+    display: inline;
+    margin: 80px 80px;
+    margin-left: 400px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.parceiros img:hover {
+    transform: scale(1.1);
 }
 
 .eviteMultas {
